@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS — Digital Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">NX<b>.</b></a>
+      <nav class="nav-links">
+        <a href="#home" class="nav-link" data-section="home">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#services" class="nav-link" data-section="services">Services</a>
+        <a href="#gallery" class="nav-link" data-section="gallery">Gallery</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-overlay" id="mobileOverlay">
+    <nav class="mobile-nav">
+      <a href="#home" class="mobile-link" data-section="home">Home</a>
+      <a href="#about" class="mobile-link" data-section="about">About</a>
+      <a href="#services" class="mobile-link" data-section="services">Services</a>
+      <a href="#gallery" class="mobile-link" data-section="gallery">Gallery</a>
+      <a href="#contact" class="mobile-link" data-section="contact">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+    <section id="home" class="section section--home">
+      <div class="grid-bg"></div>
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="section-content">
+        <span class="section-tag reveal">01 / Welcome</span>
+        <h1 class="hero-title reveal">WE BUILD<br><em>FUTURES.</em></h1>
+        <p class="hero-sub reveal">A modern digital studio crafting immersive experiences for bold brands and visionary
+          founders worldwide.</p>
+        <div class="pills reveal">
+          <span class="pill">Branding</span>
+          <span class="pill">Web Design</span>
+          <span class="pill">Development</span>
+          <span class="pill">Strategy</span>
+        </div>
+        <a href="#about" class="cta-btn reveal">Discover More ↓</a>
+      </div>
+      <div class="hero-cards">
+        <div class="hcard reveal">
+          <div class="hcard-label"><span class="dot"></span>Active Projects</div>
+          <div class="hcard-val">24</div>
+        </div>
+        <div class="hcard reveal">
+          <div class="hcard-label">Client Satisfaction</div>
+          <div class="hcard-val">98%</div>
+        </div>
+        <div class="hcard reveal">
+          <div class="hcard-label">Years of Craft</div>
+          <div class="hcard-val">07</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section--about">
+      <div class="section-content">
+        <span class="section-tag reveal">02 / About</span>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <h2 class="section-title">OUR<br>STORY</h2>
+            <p>Founded in 2018, Nexus began as a small collective of designers and engineers obsessed with one question:
+              <em>what does digital feel like?</em>
+            </p>
+            <p>Today we're a 30-person studio working at the intersection of craft and technology — building products
+              that don't just function, but resonate.</p>
+            <div class="about-stats">
+              <div class="stat reveal"><span class="stat-n">150+</span><span class="stat-l">Projects</span></div>
+              <div class="stat reveal"><span class="stat-n">40+</span><span class="stat-l">Clients</span></div>
+              <div class="stat reveal"><span class="stat-n">7yr</span><span class="stat-l">Experience</span></div>
+              <div class="stat reveal"><span class="stat-n">12</span><span class="stat-l">Awards</span></div>
+            </div>
+          </div>
+          <div class="mosaic reveal">
+            <div class="m1"><span class="mi">🏛</span><span class="ml">Studio Space</span></div>
+            <div class="m2"><span class="mi">✦</span><span class="ml">Design Process</span></div>
+            <div class="m3"><span class="mi">⬡</span><span class="ml">Our Culture</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section--services">
+      <div class="section-content">
+        <span class="section-tag reveal">03 / Services</span>
+        <h2 class="section-title reveal">WHAT<br>WE DO</h2>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="svc-icon yellow">◈</div>
+            <h3>Brand Identity</h3>
+            <p>Logos, systems, tone-of-voice — brands that hold their shape across every surface.</p><span
+              class="svc-tag yellow">Strategy · Visual</span>
+          </div>
+          <div class="service-card reveal">
+            <div class="svc-icon teal">⬡</div>
+            <h3>Web Design</h3>
+            <p>Pixel-perfect interfaces crafted with obsessive attention to interaction and motion.</p><span
+              class="svc-tag teal">UX · UI · Motion</span>
+          </div>
+          <div class="service-card reveal">
+            <div class="svc-icon coral">⬠</div>
+            <h3>Development</h3>
+            <p>Production-grade frontend and backend engineering. Fast, accessible, maintainable.</p><span
+              class="svc-tag coral">React · Node · DB</span>
+          </div>
+          <div class="service-card reveal">
+            <div class="svc-icon yellow">◉</div>
+            <h3>Strategy</h3>
+            <p>Research, positioning, and roadmapping to ensure every decision moves the needle.</p><span
+              class="svc-tag yellow">Research · Growth</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section section--gallery">
+      <div class="section-content">
+        <span class="section-tag reveal">04 / Gallery</span>
+        <h2 class="section-title reveal">OUR<br>WORK</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item g1 reveal">
+            <div class="gi-bg"></div>
+            <div class="gi-info">
+              <div class="gi-title">Orbit App</div>
+              <div class="gi-cat">Product Design</div>
+            </div>
+          </div>
+          <div class="gallery-item g2 reveal">
+            <div class="gi-bg"></div>
+            <div class="gi-info">
+              <div class="gi-title">Lumen Brand</div>
+              <div class="gi-cat">Identity</div>
+            </div>
+          </div>
+          <div class="gallery-item g3 reveal">
+            <div class="gi-bg"></div>
+            <div class="gi-info">
+              <div class="gi-title">Fable Platform</div>
+              <div class="gi-cat">Web Development</div>
+            </div>
+          </div>
+          <div class="gallery-item g4 reveal">
+            <div class="gi-bg"></div>
+            <div class="gi-info">
+              <div class="gi-title">Arc Dashboard</div>
+              <div class="gi-cat">UI Design</div>
+            </div>
+          </div>
+          <div class="gallery-item g5 reveal">
+            <div class="gi-bg"></div>
+            <div class="gi-info">
+              <div class="gi-title">Nova Campaign</div>
+              <div class="gi-cat">Branding</div>
+            </div>
+          </div>
+          <div class="gallery-item g6 reveal">
+            <div class="gi-bg"></div>
+            <div class="gi-info">
+              <div class="gi-title">Kira Identity</div>
+              <div class="gi-cat">Strategy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--contact">
+      <div class="section-content">
+        <span class="section-tag reveal">05 / Contact</span>
+        <h2 class="section-title reveal">LET'S<br>TALK.</h2>
+        <div class="contact-layout">
+          <div class="contact-info reveal">
+            <p>Have a project? An idea? Or just want to say hello? We'd love to hear from you.</p>
+            <div class="contact-details">
+              <div><strong>Email</strong>aqil.m9398@gmail.com</div>
+              <div><strong>Phone</strong>03445730265</div>
+              <div><strong>Location</strong>Rustam Mardan</div>
+            </div>
+            <div class="socials">
+              <span class="soc">Tw</span>
+              <span class="soc">Li</span>
+              <span class="soc">Dr</span>
+              <span class="soc">Ig</span>
+            </div>
+          </div>
+          <form class="contact-form reveal" onsubmit="return false">
+            <div class="form-row">
+              <input type="text" placeholder="Your Name" class="form-input" />
+              <input type="email" placeholder="Email Address" class="form-input" />
+            </div>
+            <input type="text" placeholder="Subject" class="form-input" />
+            <textarea placeholder="Tell us about your project…" class="form-input form-ta"></textarea>
+            <button type="submit" class="submit-btn">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
